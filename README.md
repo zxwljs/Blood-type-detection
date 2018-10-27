@@ -13,3 +13,5 @@ ABO 血型系统的基因位点在第 9 对染色体上。人的 ABO 血型受�
 如有错误请联系站长(关注公众号留言)
 
 博客http://xuan2001.tw/index.php/post/9.html
+点击这里查看效果 http://xuan2001.tw/fun/blood/
+微信公众号zxwljs
