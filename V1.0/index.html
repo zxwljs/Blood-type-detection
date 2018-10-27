@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<htmL>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="根据你的血型测出下一代的血型-微信公众号zxwljs-QQ1741415746" />
+  <meta name="keywords" content="血型检测,血型,微信公众号zxwljs,基因,孟德尔,分离定律,QQ1741415746" />
+  <title>血型检测 -Blood type detection</title>
+  <link rel="stylesheet" href="src/css/mdui.min.css"/>
+  <link rel="icon" href="src/img/icon/favicon.png" type="image/x-icon" />
+  <script src="src/js/mdui.min.js"></script>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122667233-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122667233-2');
+  </script>
+
+</head>
+<body class="mdui-theme-primary-indigo mdui-theme-accent-pink">
+
+  <div class="mdui-toolbar mdui-color-theme-accent mdui-shadow-10">
+    <span class="mdui-typo-title">血型检测 -Blood type detection</span>
+    <div class="mdui-toolbar-spacer"></div>
+  </div>
+  <div class="mdui-container">
+  	
+  	<div class="mdui-card mdui-m-t-3 mdui-m-b-3">
+      <div class="mdui-typo mdui-m-l-1">
+      	<h1>使用方法<br><small>只需输入您的血型与您配偶的血型,即可推测出您下一代的血型,逻辑遵循孟德尔定律中的分离定律,这是目前最科学的血型测试和血型配对方法<a href="#study" class="mdui-btn mdui-color-theme-accent">点击这里学习</a>暂时无法测定Rh血型.</small></h1>
+      </div>
+    </div>
+    <div class="mdui-card mdui-m-t-3">
+    	<form class='mdui-m-l-1'> 
+    	<h3>您的血型</h3><br>
+    	<label class="mdui-radio"><input type="radio" name="father" value="1" id="father"/><i class="mdui-radio-icon"></i>A</label><br>
+    	<label class="mdui-radio"><input type="radio" name="father" value="2" id="father"/><i class="mdui-radio-icon"></i>B</label><br>
+    	<label class="mdui-radio"><input type="radio" name="father" value="12" id="father"/><i class="mdui-radio-icon"></i>AB</label><br>
+    	<label class="mdui-radio"><input type="radio" name="father" value="0" id="father"/><i class="mdui-radio-icon"></i>O</label><br>
+    	<div class="mdui-typo"><hr/></div>
+    	<h3>您配偶血型</h3><br>
+    	<label class="mdui-radio"><input type="radio" name="mother" value="1" id="mother"/><i class="mdui-radio-icon"></i>A</label><br>
+    	<label class="mdui-radio"><input type="radio" name="mother" value="2" id="mother"/><i class="mdui-radio-icon"></i>B</label><br>
+    	<label class="mdui-radio"><input type="radio" name="mother" value="12" id="mother"/><i class="mdui-radio-icon"></i>AB</label><br>
+    	<label class="mdui-radio"><input type="radio" name="mother" value="0" id="mother"/><i class="mdui-radio-icon"></i>O</label><br>
+    	<div class="mdui-typo"><hr/></div>
+    	<input type="submit" id ='submi' class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-m-b-2" value="检测">
+    	</form>
+    </div>
+     <div class="mdui-card mdui-m-t-3 " id="ad">
+      <div class="mdui-typo mdui-m-l-1" >
+      	<div class="mdui-text-right mdui-m-t-1 mdui-m-r-2" id="close"><butto><i class="mdui-icon material-icons">close</i></butto></div>
+      	<h3>微信公众号</h3><br><img class="mdui-img-rounded mdui-center" src="https://i.loli.net/2018/10/27/5bd419eab951d.jpg"/><br>
+      	<h3>微信打赏</h3><br><img class="mdui-img-rounded mdui-center" src="https://i.loli.net/2018/10/27/5bd41b32f17a8.jpg"/><br>
+      </div>
+    </div>
+    <div class="mdui-card mdui-m-t-3 " id="study">
+      <div class="mdui-typo mdui-m-l-1" >
+      	<h1>血型测试原理</h1>
+      	<p>人类血型是以A、B、O等三种遗传因子的组合而决定的，具有遗传性、父母双方的血型基因在两性性细胞相结合时，可以在细胞核染色体中搭配成对，进而将血型遗传特性传给子代。也就是说：根据父母的血型即可判断出以后出生的宝宝可能出现的血型.</p>
+      	<h1>科学原理</h1>
+      	<p>体细胞上的染色体如果来自父母双方的等位基因是相同的叫纯合子（例如：有的A型染色体上的等位基因A及A）：如果所含的基因内容不相同则叫杂合子（例如：有的A型人染色体上等位基因为A及O）。换句话说，每一个体，在某位点上，有两个而且也只有两个等位基因，每个等位基因，来自父母各一方。如果来自父母双方
+的基因是相同的，此个体即称为纯合子，如不相同，则称为杂合子。不论是纯合子还是杂合子，一对染色体上基因的总和称为遗传式。如上述两种人的遗传式分别为AA和AO。但是，遗传下来的基因不一定都表现出来，把能够表现出来的性状称为表现式。如无论遗传为AA和AO，其表现式均为A，这就是我们平常所说的 A型。可见血型实际上是指它的表现形式而言的。血型的表现式和遗传式其所以不同，是因为有些基因无论是纯合子还是杂合子，它所控制的性状都可以表现出来，这种基因叫显性基因，如果这种基因所控制的性状，只有在纯合子时才表现出来，而在杂合子时不能表现出来，这种基因则称为隐性基因。在ABO血型系统中，A 和B基因是显性基因，而O基因则是隐性基因。例如，在一对染色体中，一个染色体带A基因，另一个带O基因，这个人的遗传式为AO，但表现式为A，即是A 型，而不是O型。一对染色体中都带有O基因才能表现为O型血.</p>
+        <h1>血型的遗传因子</h1>
+        <p>ABO 血型系统的基因位点在第 9 对染色体上。人的 ABO 血型受控于 A 、 B 、 O 三个基因，但每个人体细胞内的第 9 对染色体上只有两个 ABO 系统基因，即为 AO 、 AA 、 BO 、 BB 、 AB 、 OO 中的一对等位基因，其中 A 和 B 基因为显性基因， O 基因为隐性基因。</p>
+        <h1>看在那么专业就<a href="#ad">打赏</a>一下吧</h1><p>如有错误请联系站长(关注公众号留言)</p>
+      </div>	
+    </div>
+  </div>
+  <script>
+$(document).ready(function(){
+  		$("#submi").click(function(){
+  			$.post("test.php",{father:$("input[name='father']:checked").val(),mother:$("input[name='mother']:checked").val()},
+  			function(data){
+  				alert(data)
+  			});
+     });
+     $("#close").click(function(){
+       $("#ad").hide() 
+     });
+});
+  </script>
+</body>
+</html>
