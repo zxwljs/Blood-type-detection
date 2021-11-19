@@ -64,7 +64,7 @@
   <script>
 $(document).ready(function(){
   		$("input").click(function(){
-  			$.post("https://service-od8ivy6i-1304699188.hk.apigw.tencentcs.com/release/blood-github",{father:$("input[name='father']:checked").val(),mother:$("input[name='mother']:checked").val()},
+  			$.get("https://service-od8ivy6i-1304699188.hk.apigw.tencentcs.com/release/blood-github",{father:$("input[name='father']:checked").val(),mother:$("input[name='mother']:checked").val()},
   			function(data){
   				alert(data)
           console.log(data)
