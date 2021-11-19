@@ -3,23 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="根据你的血型测出下一代的血型-微信公众号zxwljs-QQ1741415746" />
-  <meta name="keywords" content="血型检测,血型,微信公众号zxwljs,基因,孟德尔,分离定律,QQ1741415746" />
+  <meta name="description" content="根据你的血型测出下一代的血型" />
+  <meta name="keywords" content="血型检测,血型,微信公众号zxwljs,基因,孟德尔,分离定律" />
   <title>血型检测 -Blood type detection</title>
   <link rel="stylesheet" href="src/css/mdui.min.css"/>
   <link rel="icon" href="src/img/icon/favicon.png" type="image/x-icon" />
   <script src="src/js/mdui.min.js"></script>
   <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122667233-2"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-122667233-2');
-  </script>
-
 </head>
 <body class="mdui-theme-primary-indigo mdui-theme-accent-pink">
 
@@ -55,7 +45,7 @@
       <div class="mdui-typo mdui-m-l-1" >
       	<div class="mdui-text-right mdui-m-t-1 mdui-m-r-2" id="close"><butto><i class="mdui-icon material-icons">close</i></butto></div>
       	<h3>微信公众号</h3><br><img class="mdui-img-rounded mdui-center" src="https://i.loli.net/2018/10/27/5bd419eab951d.jpg"/><br>
-      	<h3>微信打赏</h3><br><img class="mdui-img-rounded mdui-center" src="https://i.loli.net/2018/10/27/5bd41b32f17a8.jpg"/><br>
+      	<h3>打赏</h3><br><img class="mdui-img-rounded mdui-center" src="https://i.loli.net/2021/11/19/WQHaJR4AVFp5n3j.jpg"/><br>
       </div>
     </div>
     <div class="mdui-card mdui-m-t-3 " id="study">
@@ -74,7 +64,7 @@
   <script>
 $(document).ready(function(){
   		$("#submi").click(function(){
-  			$.post("test.php",{father:$("input[name='father']:checked").val(),mother:$("input[name='mother']:checked").val()},
+  			$.post("https://service-od8ivy6i-1304699188.hk.apigw.tencentcs.com/release/blood-github",{father:$("input[name='father']:checked").val(),mother:$("input[name='mother']:checked").val()},
   			function(data){
   				alert(data)
   			});
