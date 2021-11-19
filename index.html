@@ -38,7 +38,7 @@
     	<label class="mdui-radio"><input type="radio" name="mother" value="12" id="mother"/><i class="mdui-radio-icon"></i>AB</label><br>
     	<label class="mdui-radio"><input type="radio" name="mother" value="0" id="mother"/><i class="mdui-radio-icon"></i>O</label><br>
     	<div class="mdui-typo"><hr/></div>
-    	<input type="submit" id ='submi' class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-m-b-2" value="检测">
+    	<input type="submit" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-m-b-2" value="检测">
     	</form>
     </div>
      <div class="mdui-card mdui-m-t-3 " id="ad">
@@ -63,7 +63,7 @@
   </div>
   <script>
 $(document).ready(function(){
-  		$("#submi").click(function(){
+  		$("input").click(function(){
   			$.post("https://service-od8ivy6i-1304699188.hk.apigw.tencentcs.com/release/blood-github",{father:$("input[name='father']:checked").val(),mother:$("input[name='mother']:checked").val()},
   			function(data){
   				alert(data)
